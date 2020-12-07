@@ -3,7 +3,7 @@ import {
   StyleSheet,
   Image,
   Text,
-  TouchableHighlight,
+  TouchableOpacity,
   View,
 } from "react-native";
 import facebook from "../../assets/images/Facebook-01.png";
@@ -14,9 +14,9 @@ function Buttons() {
   return (
     <View style={styles.container}>
       <View style={styles.viewLoginBtn}>
-        <TouchableHighlight style={styles.loginBtn}>
+        <TouchableOpacity style={styles.loginBtn}>
           <Text style={styles.loginBtnText}>Log In</Text>
-        </TouchableHighlight>
+        </TouchableOpacity>
       </View>
       <View style={styles.viewFBOpts}>
         <View style={styles.viewFBOptsContinueAs}>
